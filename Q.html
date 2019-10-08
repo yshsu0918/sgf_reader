@@ -1,0 +1,309 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> SGF READER </title>
+
+	
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/wgo.js"></script>
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/kifu.js"></script>
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/sgfparser.js"></script>
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/player.js"></script>
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/basicplayer.js"></script>
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/basicplayer.component.js"></script>
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/basicplayer.infobox.js"></script>
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/basicplayer.commentbox.js"></script>
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/basicplayer.control.js"></script>
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/player.editable.js"></script>
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/scoremode.js"></script>
+	<script type="text/javascript" src="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/player.permalink.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/wgo/wgo.player.css" />
+	<link rel="stylesheet" type="text/css" href="G:/VM_SYNC/chessboard_partition/web/sgf_reader/read/static/read/wgo.js/themes/wgo.player.dark.css" />
+
+<style>
+body {
+  background-color: #000;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+
+
+<h1 style="font-family: Consolas">00002__Vs_.sgf_0_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][cd][ed][gd][gf][ef][cf][bj][bl][cl][dl][el][fl][gl][hm][hn][ho][cp][dp][ep][fp][gp][cq][ar][br][dr]AW[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][bm][cm][em][fm][cn][en][gn][co][eo][fo][bp][bq]C[CGI resign](;B[am]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00003__Vs_.sgf_1_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][ah][cd][ed][gd][gf][ef][cf][ch][eh][gh][bl][bn][cn][dn][en][fo][gp][dq][eq][fq]AW[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][bo][co][cp][dp][ep][br]C[CGI resign](;B[dr]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00003__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][jb][jd][jf][lb][ld][lf][lh][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][jh][da][db][fb][ec][ed][be][ee][bf][cf][df]AW[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][bb][cb][dc][bd][dd][ce][de]C[CGI resign](;B[cc]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00003__Vs_.sgf_3_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][bb][bd][bf][db][dd][df][fb][fd][ff][hb][hd][hf][jj][hj][hi][ij][nc][oc][pc][qc][rc][ld][md][le][lf][lg][og][pg][qg][rg][mh][nh]AW[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][nd][od][pd][qd][rd][me][mf][of][pf][qf][rf][ng]C[CGI resign](;B[se]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00004__Vs_.sgf_1_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][cj][dj][ej][fj][gj][hj][ij][jj][kj][lj][mj][nj][nk][ok][qk][pk][sk][rk][hm][ho][hq][hs][fs][ds][dq][fq][fo][do][dm][fm][bm][bo][bq][bs][no][oo][po][qo][mp][qp][kq][lq][nq][rq][kr][rr][rs]AW[fi][ii][ji][mi][ni][li][ki][hi][gi][ei][di][ci][bi][ai][oi][oj][pj][qj][rj][sj][bb][bd][bf][db][dd][df][fb][fd][ff][hb][hd][hf][jb][jd][jf][lb][ld][lf][nb][nd][nf][pb][pd][pf][rb][rd][rf][rh][ph][np][op][pp][oq][qq][lr][mr][or][qr]C[CGI resign](;B[pr]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00008__Vs_.sgf_1_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][cd][ed][gd][cg][bh][ci][cj][dk][dl][dm][bn][cn][en][eo][ep][bq][dq]AW[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][bi][bj][ck][cl][cm][dn][bo][co][do]C[CGI resign](;B[bk]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00009__Vs_.sgf_3_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][ia][db][fb][hb][dc][gc][dd][gd][ge]AW[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][cb][ib][jb][cc][hc][cd][hd][de][ee][he][cf][ff][gf][if]C[CGI resign](;W[ga]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00012__Vs_.sgf_1_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ja][jb][jd][jc][je][jf][jg][jh][ji][jj][jk][jl][jm][jn][kp][kq][kr][ks][jo][ko][ll][nl][pl][rl][ln][nn][pn][rn][np][lp][pp][rp][rr][pr][nr][lr][ob][pb][qb][rb][nc][oc][ne][re][of][pf][qg][qh][qi][ri]AW[js][jr][jq][jp][ip][io][in][im][il][ik][ij][ii][ih][ig][if][ie][id][ic][ia][ib][ab][cb][eb][gb][ad][cd][ed][gd][af][cf][ef][gf][ah][ch][eh][gh][aj][cj][ej][gj][al][cl][el][gl][an][cn][en][gn][ap][cp][ep][gp][ar][cr][er][gr][pc][qc][od][qd][pe][qe][qf][rf][rg][rh]C[CGI resign](;B[sd]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00012__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[fi][ii][ji][mi][ni][li][ki][hi][gi][ei][di][ci][bi][ai][oi][oj][pj][qj][rj][sj][bb][bd][bf][db][dd][df][fb][fd][ff][hb][hd][hf][jb][jd][jf][lb][ld][lf][nb][nd][nf][pb][pd][pf][rb][rd][rf][rh][ph][mp][np][mq][oq][jr][kr][lr][or][js]AW[aj][bj][cj][dj][ej][fj][gj][hj][ij][jj][kj][lj][mj][nj][nk][ok][qk][pk][sk][rk][ds][dq][do][dm][bm][bo][bq][bs][mn][nn][lo][oo][op][hq][jq][kq][lq][pq][ir][pr][rr][is]C[CGI resign](;W[nr]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00014__Vs_.sgf_1_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][cj][dj][ej][fj][gj][hj][ij][jj][kj][lj][mj][nj][nk][ok][qk][pk][sk][rk][fs][ds][dq][fq][fo][do][dm][fm][bm][bo][bq][bs][lm][mm][nm][om][pm][qm][rm][ln][nn][lo][lp][mp][np][op][rp][kq][qq][sq][qr][rr]AW[fi][ii][ji][mi][ni][li][ki][hi][gi][ei][di][ci][bi][ai][oi][oj][pj][qj][rj][sj][bb][bd][bf][db][dd][df][fb][fd][ff][hb][hd][hf][jb][jd][jf][lb][ld][lf][nb][nd][nf][pb][pd][pf][rb][rd][rf][rh][ph][mn][on][pn][qn][rn][mo][no][oo][ro][pp][qp][lq][mq][pq][kr][nr]C[CGI resign](;B[mr]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00014__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][ah][cd][ed][gd][gf][ef][cf][ch][eh][gh][bk][bm][cm][dm][em][en][fo][fp][eq][cr][dr][er][bs][cs]AW[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][am][bn][dn][co][eo][ep][bq][cq][dq][br]C[CGI resign](;B[an]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00015__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[js][jr][jq][jp][ip][io][in][im][il][ik][ij][ii][ih][ig][if][ie][id][ic][ia][ib][ab][cb][eb][gb][ad][cd][ed][gd][af][cf][ef][gf][ah][ch][eh][gh][aj][cj][ej][gj][al][cl][el][gl][an][cn][en][gn][ap][cp][ep][gp][ar][cr][er][gr][rd][re][qf][qg][ph][pi][qi][ri][qj]AW[ja][jb][jd][jc][je][jf][jg][jh][ji][jj][jk][jl][jm][jn][kp][kq][kr][ks][jo][ko][lb][ld][lf][lh][lj][ll][ln][nn][pn][rn][np][lp][pp][rp][rr][pr][nr][lr][qb][rc][qd][qe][pf][pg][oh][qh][oi][pj][pk][qk][rk]C[CGI resign](;W[se]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00015__Vs_.sgf_3_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][db][fb][dc][gc][hc][dd][ed][gd][fe][ge]AW[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][lb][ld][lf][lh][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][ha][cb][ib][cc][ic][cd][fd][hd][de][ee][he][ff][gf][hf]C[CGI resign](;W[ea]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00016__Vs_.sgf_0_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][cd][ed][gd][gf][ef][cf][bi][bj][dj][ck][cl][dm][en][eo][ep][bq][cq][dq][dr]AW[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][aj][bk][bl][cm][cn][bp][cp][aq][br]C[CGI resign](;B[dn]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00016__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][jj][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][mb][dc][jc][kc][lc][mc][cd][ed][fe][he][hf][if][jf][kf]AW[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][jb][kb][lb][fc][ic][hd][jd][ie][je]C[CGI resign](;B[hb]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00017__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][cb][db][eb][fb][gb][hb][ac][bc][ad][bd]AW[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][aa][ba][ca][ha][ib][jb][kb][cc][dc][ec][fc][gc][hc][ae][be][ce][df]C[CGI resign](;W[fa]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00024__Vs_.sgf_0_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[js][jr][jq][jp][ip][io][in][im][il][ik][ij][ii][ih][ig][if][ie][id][ic][ia][ib][ab][cb][eb][gb][ad][cd][ed][gd][af][cf][ef][gf][ah][ch][eh][gh][aj][cj][ej][gj][al][cl][el][gl][an][cn][en][gn][ap][cp][ep][gp][ar][cr][er][gr][ma][ra][mb][rb][kc][mc][qc][nd][qd][nf][of][pf][qf][qg][rh][ri]AW[ja][jb][jd][jc][je][jf][jg][jh][ji][jj][jk][jl][jm][jn][kp][kq][kr][ks][jo][ko][ln][nn][pn][rn][np][lp][pp][rp][rr][pr][nr][lr][na][pa][nb][qb][nc][oc][pc][md][me][mf][ng][og][pg][mh][qh][qi][qj][rj]C[CGI resign](;W[qa]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00029__Vs_.sgf_1_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][cj][dj][ej][fj][gj][hj][ij][jj][kj][lj][mj][nj][nk][ok][qk][pk][sk][rk][fs][ds][dq][fq][fo][do][dm][fm][bm][bo][bq][bs][ko][lo][mo][kp][np][op][pp][qp][rp][rr]AW[fi][ii][ji][mi][ni][li][ki][hi][gi][ei][di][ci][bi][ai][oi][oj][pj][qj][rj][sj][bb][bd][bf][db][dd][df][fb][fd][ff][hb][hd][hf][jb][jd][jf][lb][ld][lf][nb][nd][nf][pb][pd][pf][rb][rd][rf][rh][ph][nn][on][pn][no][qo][ro][lp][mp][jq][kq][nq][oq][pr]C[CGI resign](;B[mq]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00033__Vs_.sgf_1_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][bo][co][do][dp][br][cr]AW[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][ah][cd][ed][gd][gf][ef][cf][ch][eh][gh][bl][bn][cn][dn][eo][ep][eq][dr][fr]C[CGI resign](;W[cq]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00033__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][ba][bb][bc][ec][fc][gc][bd][cd][dd][hd][ee][he][gf]AW[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][lb][ld][lf][lh][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][cb][eb][fb][gb][ib][dc][hc][id][be][ce][ie][hf][cg][eg][hg][fh]C[CGI resign](;W[ed]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00035__Vs_.sgf_0_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][ba][cb][eb][fb][dc][fc][fd]AW[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][jb][jd][jf][lb][ld][lf][lh][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][jh][bb][gb][cc][gc][cd][dd][gd][ee][fe]C[CGI resign](;W[da]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00035__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[fi][ii][ji][mi][ni][li][ki][hi][gi][ei][di][ci][bi][ai][oi][oj][pj][qj][rj][sj][bb][bd][bf][db][dd][df][fb][fd][ff][hb][hd][hf][jb][jd][jf][lb][ld][lf][nb][nd][nf][pb][pd][pf][rb][rd][rf][rh][ph][cm][bn][cn][dn][do][bp][cp][ep][gp][hp][eq][fq][dr][er][gr]AW[aj][bj][cj][dj][ej][fj][gj][hj][ij][jj][kj][lj][mj][nj][nk][ok][qk][pk][sk][rk][rm][ro][pm][po][nm][no][nq][pq][ns][ps][rq][rs][lm][lo][lq][ls][bl][cl][bm][dm][en][eo][fo][go][dp][fp][bq][cq][dq][gq][cr]C[CGI resign](;W[ao]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00037__Vs_.sgf_1_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][ak][bk][ck][dk][al][dm][em][bn][cn][eo][cp][dp][ep][bq][cq]AW[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][cd][ed][gd][gf][ef][cf][aj][bj][cj][dj][ek][el][fm][an][fn][ao][fo][ap][fp][aq][dq][eq][ar][br][cr][er]C[CGI resign](;W[bm]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00037__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[js][jr][jq][jp][ip][io][in][im][il][ik][ij][ii][ih][ig][if][ie][id][ic][ia][ib][ab][cb][eb][gb][ad][cd][ed][gd][af][cf][ef][gf][ah][ch][eh][gh][aj][cj][ej][gj][al][cl][el][gl][an][cn][en][gn][ap][cp][ep][gp][ar][cr][er][gr][nc][oc][md][od][pd][qd][me][oe][re][pf][qf]AW[ja][jb][jd][jc][je][jf][jg][jh][ji][jj][jk][jl][jm][jn][kp][kq][kr][ks][jo][ko][ll][nl][pl][rl][ln][nn][pn][rn][np][lp][pp][rp][rr][pr][nr][lr][mb][nb][ob][lc][pc][qc][rc][ld][rd][le][mf][of][og][pg][oi][qi]C[CGI resign](;W[qe]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00037__Vs_.sgf_3_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[js][jr][jq][jp][ip][io][in][im][il][ik][ij][ii][ih][ig][if][ie][id][ic][ia][ib][ab][cb][eb][gb][ad][cd][ed][gd][af][cf][ef][gf][ah][ch][eh][gh][aj][cj][ej][gj][al][cl][el][gl][an][cn][en][gn][ap][cp][ep][gp][ar][cr][er][gr][nc][oc][md][od][pd][qd][me][oe][re][pf][qf]AW[ja][jb][jd][jc][je][jf][jg][jh][ji][jj][jk][jl][jm][jn][kp][kq][kr][ks][jo][ko][ln][nn][pn][rn][np][lp][pp][rp][rr][pr][nr][lr][mb][nb][ob][lc][pc][qc][rc][ld][rd][le][mf][of][og][pg][oi][qi][rj]C[CGI resign](;W[ne]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00038__Vs_.sgf_1_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][bm][cm][dn][en][fo][bp][cp][fp][dq][eq]AW[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][cd][ed][gd][gf][ef][cf][bj][bl][cl][dm][em][fm][fn][go][gp][bq][cq][gq][br][dr][er][fr]C[CGI resign](;W[bo]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00038__Vs_.sgf_3_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][fa][gb][hb][ib][jb][dc][ec][fc][fd][gd][ee][he][ff][gf]AW[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][jj][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][ja][db][eb][kb][cc][jc][lc][dd][ed][jd][ce][je][df][ef][hf][if][fg][gg]C[CGI resign](;W[hc]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00039__Vs_.sgf_1_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][cl][cm][bn][dn][bp][cp][dp][cq][ar][br]AW[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][ah][cd][ed][gd][gf][ef][cf][ch][eh][gh][ck][dk][bl][bm][dm][em][eo][ep][dq][cr][er][bs]C[CGI resign](;W[aq]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00039__Vs_.sgf_3_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[fi][ii][ji][mi][ni][li][ki][hi][gi][ei][di][ci][bi][ai][oi][oj][pj][qj][rj][sj][bb][bd][bf][db][dd][df][fb][fd][ff][hb][hd][hf][jb][jd][jf][lb][ld][lf][nb][nd][nf][pb][pd][pf][rb][rd][rf][rh][ph][mp][np][lq][pq][lr][nr][pr][ls]AW[aj][bj][cj][dj][ej][fj][gj][hj][ij][jj][kj][lj][mj][nj][nk][ok][qk][pk][sk][rk][hm][ho][hq][hs][fs][ds][dq][fq][fo][do][dm][fm][bm][bo][bq][bs][ko][mo][no][oo][lp][pp][qp][kq][qq][kr][qr][ks]C[CGI resign](;W[oq]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00044__Vs_.sgf_1_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][ad][ae][be][ce][bg][ch][ci][bj]AW[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][gd][gf][gh][gj][gl][gn][ap][cp][ep][gp][gr][er][cr][ar][ac][bc][bd][cd][de][df][dg][dh][di][cj][ck][cl][bm]C[CGI resign](;W[bi]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00054__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][ah][aj][cd][ed][gd][gf][ef][cf][ch][eh][gh][gj][ej][cj][gl][gn][gp][gr][cm][dn][do][dp][cq][dq][dr]AW[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][co][cp][bq][br][cr]C[CGI resign](;B[bo]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00055__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][lb][ld][lf][lh][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][dc][fc][hc][cd][dd][be][cf]AW[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][cb][db][cc][ad][bd]C[CGI resign](;B[ab]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00055__Vs_.sgf_3_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][ah][aj][cd][ed][gd][gf][ef][cf][ch][eh][gh][gj][ej][cj][cm][bn][co][cp][dq][eq][er]AW[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][bo][bp][bq][cr][dr]C[CGI resign](;B[ar]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00058__Vs_.sgf_0_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][aj][al][gj][ej][cj][cl][el][gl][gn][en][cn][an][ap][cp][ep][gp][gr][er][cr][ar][fb][dc][fc][ed][fd][be][ce][de][cg]AW[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][db][eb][ec][bd][cd][dd]C[CGI resign](;B[bb]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00059__Vs_.sgf_0_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][ga][fb][hb][dc][ec][gc][hc]AW[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][lb][ld][lf][lh][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][jh][eb][fc][ed][fd][gd][be][ce]C[CGI resign](;W[db]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00060__Vs_.sgf_3_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][lb][ld][lf][lh][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][jh][db][hb][cc][dc][fc][gc][hc][ed][ee]AW[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][eb][fb][gb][bc][ec][bd][cd][dd]C[CGI resign](;B[da]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00061__Vs_.sgf_0_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][cd][ed][gd][gf][ef][cf][ci][bj][cj][ej][dk][dl][em][en][co][bp][fp][bq][cq][eq][br]AW[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][bk][ck][cm][dn][bo][do][ap][cp][dp]C[CGI resign](;B[an]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00061__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][lb][ld][lf][lh][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][jh][aa][ca][bb][fb][hb][ec][gc][ed][be][ce]AW[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][da][fa][eb][bc][cc][dc][bd]C[CGI resign](;B[cb]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00061__Vs_.sgf_3_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][bb][bd][bf][db][dd][df][fb][fd][ff][hb][hd][hf][jb][jd][jf][jj][hj][hi][ij][jh][pa][nb][ob][mc][pc][od][me][oe][qf][rf]AW[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][pb][qb][rb][oc][pd][qd][re]C[CGI resign](;B[qa]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00062__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][hb][cc][ic][cd][gd][hd][jd][ce][ee][bf]AW[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][cb][bc][dc][ec][fc][gc]C[CGI resign](;B[ba]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00062__Vs_.sgf_3_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][bk][bl][bm][cm][cn][bo][co][bp][bq]AW[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][cd][ed][gd][gf][ef][cf][ci][bj][ck][cl][am][dm][bn][do][cp][ep][cq][br][cr]C[CGI resign](;W[ao]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00065__Vs_.sgf_0_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[ia][ib][ic][id][ie][if][ig][ih][jh][jj][ji][jk][jl][jm][jn][jo][jp][jq][jr][js][gb][eb][cb][ab][ad][af][cd][ed][gd][gf][ef][cf][ci][bj][ck][cl][el][em][co][do][dp][dq][dr]AW[ja][jb][jc][jd][je][jf][jg][kg][kk][ki][kj][kl][km][kn][ko][kp][kq][kr][ks][kh][lb][nb][pb][rb][rd][pd][nd][ld][lf][nf][pf][rf][rh][ph][nh][lh][lj][ll][ln][lp][lr][nj][nl][nn][np][nr][pj][rj][pl][rl][pn][rn][pp][rp][pr][rr][bk][bl][bm][cm][dm][bo][cp][cq]C[CGI resign](;B[bq]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00065__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][cj][dj][ej][fj][gj][hj][ij][jj][kj][lj][mj][nj][nk][ok][qk][pk][sk][rk][hm][ho][hq][hs][fs][ds][dq][fq][fo][do][dm][fm][bm][bo][bq][bs][qm][mn][pn][mo][ro][np][pp][qp][nq][oq][mr]AW[fi][ii][ji][mi][ni][li][ki][hi][gi][ei][di][ci][bi][ai][oi][oj][pj][qj][rj][sj][bb][bd][bf][db][dd][df][fb][fd][ff][hb][hd][hf][jb][jd][jf][lb][ld][lf][nb][nd][nf][pb][pd][pf][rb][rd][rf][rh][ph][no][oo][mp][op][rp][kq][mq][pq][qq][rq][lr]C[CGI resign](;B[pr]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00066__Vs_.sgf_0_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[kj][lj][mj][nj][oj][pj][qj][rj][sj][gi][fi][ei][di][ci][bi][ai][jb][jd][jf][lb][ld][lf][lh][jj][nb][nd][nf][nh][ph][rh][pf][rf][rd][pd][pb][rb][hj][hi][ij][jh][fa][cb][eb][gb][bc][dc][fc][be][ge][cf][ef][bg]AW[aj][bj][dj][cj][ej][fj][gj][ik][kk][lk][nk][mk][ok][pk][rk][qk][sk][jk][bl][bn][bp][br][dl][dn][dp][dr][fl][fn][fp][fr][hn][hp][hr][jp][jn][jr][lr][lp][ln][nn][np][nr][pr][pp][pn][rn][rp][rr][hk][gk][da][db][cc][ec][ad][bd][cd][ed][de]C[CGI resign](;B[ba]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+<h1 style="font-family: Consolas">00066__Vs_.sgf_2_mask</h1>
+<div data-wgo= "(;CA[UTF-8]GM[1]AP[StoneBase:SGFParser.3.0]SZ[19]HA[0]AB[aj][bj][cj][dj][ej][fj][gj][hj][ij][jj][kj][lj][mj][nj][nk][ok][qk][pk][sk][rk][hm][ho][hq][hs][fs][ds][dq][fq][fo][do][dm][fm][bm][bo][bq][bs][ko][mo][op][pp][qp][rp][kq][oq][lr][pr][qr]AW[fi][ii][ji][mi][ni][li][ki][hi][gi][ei][di][ci][bi][ai][oi][oj][pj][qj][rj][sj][bb][bd][bf][db][dd][df][fb][fd][ff][hb][hd][hf][jb][jd][jf][lb][ld][lf][nb][nd][nf][pb][pd][pf][rb][rd][rf][rh][ph][mq][pq][qq][rq][nr][or][rr]C[CGI resign](;B[sq]))" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+
+
+
+</body>
+</html>

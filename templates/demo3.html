@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> SGF READER </title>
+
+	{% load static %}
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/wgo.js" %}"></script>
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/kifu.js" %}"></script>
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/sgfparser.js" %}"></script>
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/player.js" %}"></script>
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/basicplayer.js" %}"></script>
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/basicplayer.component.js" %}"></script>
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/basicplayer.infobox.js" %}"></script>
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/basicplayer.commentbox.js" %}"></script>
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/basicplayer.control.js" %}"></script>
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/player.editable.js" %}"></script>
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/scoremode.js" %}"></script>
+	<script type="text/javascript" src="{% static "read/wgo.js/wgo/player.permalink.js" %}"></script>
+
+	<link rel="stylesheet" type="text/css" href="{% static "read/wgo.js/wgo/wgo.player.css" %}" />
+	<link rel="stylesheet" type="text/css" href="{% static "read/wgo.js/themes/wgo.player.dark.css" %}" />
+
+<style>
+body {
+  background-color: #000;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+
+{% for sgf in sgfs %}
+<h1 style="font-family: Consolas">{{sgf.name}}</h1>
+<div data-wgo= "{{sgf.content}}" style="width: 60%; margin: 0">
+Your browser doesn't support WGo Player. Use some modern browser like IE9, Google Chrome or Mozilla Firefox.
+</div>
+
+{% endfor %}
+
+
+</body>
+</html>
